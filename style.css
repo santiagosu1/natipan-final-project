@@ -51,6 +51,8 @@ nav ul li a{
 }
 
 
+
+
 .logostyle{
 
     display: block;
@@ -79,5 +81,95 @@ div.spacerheader{
     padding-top: 10px;
     border: 0px;
 
+}
+
+#mainimages {
+
+    padding-top: 10px;
+}
+
+div.instagrambg {
+
+    background-color:#e52313;
+}
+
+.instagrambg_2 {
+
+    background-color: white;
+    display: block;
+    text-align: center;
+    width: 700px;
+    margin-left: 400px;
+
+
+}
+
+
+.contactstyle {
+
+    background-color:#e52313;
+    display: block;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-img,
+.contact-text {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 130px;
+
+}
+
+.contact-img {
+    width: 230px;
+    height: auto;
+    margin-right: 20px; 
+    
+}
+
+
+.contact-text {
+    
+    text-align: left;
+    text-align: center;
+}
+
+.contact-info {
+
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+
+}
+
+h1.contact-info {
+    font-size: 36px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.footerstyle {
+
+    background-color: white;
+    color: #e52313;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+footer {
+
+
+    
+    padding-top: 145px;
+    height: 291px;
+    display: block;
+    text-align: center;
+
+    
 }
 
