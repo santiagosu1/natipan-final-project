@@ -83,6 +83,8 @@ div.spacerheader{
 
 }
 
+/* Main Page CSS */
+
 #mainimages {
 
     padding-top: 10px;
@@ -169,7 +171,140 @@ footer {
     height: 291px;
     display: block;
     text-align: center;
+    clear: both;
+
 
     
 }
+
+/* About Us CSS */
+
+.historystyle {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+div.historystyle {
+
+    padding: 30px;
+    margin-top: 100px;
+
+}
+
+section.historystyle {
+
+    padding: 40px;
+    padding-top: 0px;
+    width: 450px;
+    height: 600px;
+    margin-left: 100px;
+}
+
+p.historystyle {
+
+    color: rgb(91, 91, 91);
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+#breadimg {
+
+    float: right;
+}
+
+
+.natipan {
+
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+div.natipan {
+
+    padding: 40px;
+    margin-top: 10px;
+    color: white;
+    background-color: #e52313;
+    height: 760px;
+}
+
+section.natipan {
+
+    position: absolute;
+    width: 700px;
+    height: 800px;
+    margin-left: 670px;
+
+
+}
+
+p.natipan {
+
+    color: white;
+    margin-left: 20px;
+    width: 500px;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+#p {
+
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    font-size: 15px;
+    text-align: justify;
+
+
+}
+
+#natipanteamimg {
+
+    float: left;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+#h2style {
+
+    padding: 25px;
+    color: #e52313 ;
+    margin-top: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#h3style {
+
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: justify;
+
+}
+
+#wearenatipanimg {
+
+    float: right;
+
+
+
+}
+
+#wearecommited {
+
+    float: left;
+
+    
+}
+
 
