@@ -15,6 +15,7 @@ nav {
     align-items: center;
     text-align: center;
     height: 60px;
+    margin-bottom: 50px;
 }
 
 nav ul {
@@ -236,9 +237,6 @@ div.navigationinstagram {
     height: 240px;
 }
 
-
-
-
 .contactstyle {
 
     background-color:#e52313;
@@ -295,25 +293,32 @@ h1.contact-info {
     font-size: 24px;
 }
 
-footer {
+.divfooter {
 
-
-    
-    padding-top: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 291px;
-    display: block;
-    text-align: center;
-    clear: both;
 
-
-    
 }
 
 /* ABOUT US CSS */
 
+.historystylecontainer {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+
+}
+
 .historystyle {
 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -321,23 +326,26 @@ footer {
 div.historystyle {
 
     padding: 30px;
-    margin-top: 100px;
+    margin-top: 60px;
 
 }
 
 section.historystyle {
 
     padding: 40px;
+    padding-left: 0px;
     padding-top: 0px;
     width: 450px;
     height: 600px;
-    margin-left: 100px;
 }
 
 p.historystyle {
 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     color: rgb(91, 91, 91);
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     text-align: justify;
 }
 
@@ -346,30 +354,39 @@ p.historystyle {
     float: right;
 }
 
+.natipancontainer {
 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+}
 .natipan {
 
-
-    text-align: center;
+    display: flex;
     font-family: 'Montserrat', sans-serif;
 
 }
 
 div.natipan {
 
-    padding: 40px;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
     color: white;
     background-color: #e52313;
-    height: 760px;
+    width: 890px;
+    height: 680px;
+    padding: 20px;
 }
 
 section.natipan {
 
-    position: absolute;
-    width: 700px;
-    height: 800px;
-    margin-left: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 
 }
@@ -377,7 +394,6 @@ section.natipan {
 p.natipan {
 
     color: white;
-    margin-left: 20px;
     width: 500px;
     font-size: 15px;
     text-align: justify;
@@ -388,7 +404,6 @@ p.natipan {
 
     color: white;
     margin-top: 20px;
-    margin-left: 20px;
     width: 500px;
     font-size: 15px;
     text-align: justify;
@@ -398,9 +413,11 @@ p.natipan {
 
 #natipanteamimg {
 
+    display: flex;
     float: left;
     padding-top: 30px;
     padding-left: 20px;
+
 }
 
 #h2style {
@@ -409,34 +426,28 @@ p.natipan {
     color: #e52313 ;
     margin-top: 15px;
     font-size: 40px;
-    text-align: center;
+    text-align: justify;
 }
 
 #h3style {
 
-    padding-left: 20px;
+    padding-left: 0px;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 5px;
-    margin-top: 15px;
     font-size: 30px;
     text-align: justify;
 
 }
 
-#wearenatipanimg {
+.divimgwearecontainer {
 
-    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 759px;
+    height: 759px;
 
-
-
-}
-
-#wearecommited {
-
-    float: left;
-
-    
 }
 
 
