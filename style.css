@@ -7,37 +7,26 @@
 
 }
 
-
 nav {
 
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-top: 10px;
-
-    
-
-}
-
-
-
-#anchors {
-    
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 60px;
 }
 
 nav ul {
 
-    list-style: none;
-    display: inline-block;
-    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
     vertical-align: bottom;
 }
 
 nav ul li{
 
     display: inline-block;
-    margin-right: 20px;
     font-size: 20px;
 }
 
@@ -83,28 +72,171 @@ div.spacerheader{
 
 }
 
-/* Main Page CSS */
+/* MAIN PAGE CSS */
 
 #mainimages {
 
     padding-top: 10px;
 }
 
+/* INSTAGRAM SECTION */
+.instagrambg {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #e52313;
+    padding: 100px 0;
+    gap: 20px;
+}
+
 div.instagrambg {
 
-    background-color:#e52313;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white ;
+    width: 300px;
+    height: 950px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 16px;
+
+}
+
+#h2supermarkets {
+
+    color: #e52313;
+    font-size: 18px;
+
+}
+
+.navigationinstagram {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-family:'Montserrat', sans-serif;
+    gap: 20px;
+
+
+}
+
+
+.navigationinstagram ul {
+    
+    list-style-type: none;   
+
+}
+
+
+
+.navigationinstagram a {
+
+    text-decoration: none;
+
+
+
+}
+
+div.navigationinstagram {
+
+    height: 200px;
+    
+
+}
+
+.logossupermaket {
+
+    width: 100px;
+    height: auto;
+    border-radius: 16px;
 }
 
 .instagrambg_2 {
 
     background-color: white;
-    display: block;
-    text-align: center;
-    width: 700px;
-    margin-left: 400px;
+    width: 870px;
+    height: 950px;
+    padding: 10px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.instagram-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+
+.instagram-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.instagram-details h2 {
+    color: #ce2212;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.instagram-stats {
+    display: flex;
+    gap: 20px;
+}
+
+.instagram-stats p {
+    margin: 0;
+    font-size: 16px;
+    color: rgb(91, 91, 91);
+}
+
+.instagram-bio h3 {
+    color: rgb(91, 91, 91);
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight:lighter;
+}
+
+.instagram-bio p {
+    color: rgb(91, 91, 91);
+    margin: 5px 0;
+    font-size: 13px;
+    
+}
+
+.instagram-bio a {
+    color: rgb(91, 91, 91);
+    font-size: 13px;
+    text-decoration: none;
 
 }
+
+.instagram-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.instagramimgs {
+    width: 255px;
+    height: 240px;
+}
+
+
 
 
 .contactstyle {
@@ -177,7 +309,7 @@ footer {
     
 }
 
-/* About Us CSS */
+/* ABOUT US CSS */
 
 .historystyle {
 
