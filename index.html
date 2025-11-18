@@ -34,7 +34,7 @@
 
             <!-- MAIN IMAGE -->
             <section>
-                <img id="mainimages" src="../natipan-final-project/images/main-images/main-images-1.png" alt="Natipan Images" width="1512px">
+                <video src="./videos/natipan-main-video.mp4" autoplay muted loop width="1532px"></video>
             </section>
 
             <!-- INSTAGRAM SECTION -->
@@ -75,8 +75,6 @@
 
                     </div>
 
-
-
                 </div>
 
                 <div class="instagrambg_2">
@@ -116,55 +114,67 @@
                     </div>
 
                     <div>
-                        <p>Load more</p>
-                    </div>
-
-     
+                        <button class="loadmorbtnstyle">Load more</button>
+                    </div>     
                 </div>
-
 
             </section>
 
             <!-- VIDEOS SECTION -->
-            <section class="videos-section">
+            <div class="videoscontainer">
 
-                <div class="videos-header">
-                    <header>
-                        <h2>All videos</h2>
-                    </header>
+                <section class="sectionh3style">
+                    <h3 class="h3style">All videos</h3>
+                </section>
 
-                    <div>
-                        <h3>All videos</h3>
-                    </div>
+                <div class="videocontroller">
 
-                    <button>
-                        <p>Play video</p>
-                    </button>
+                    <video src="./videos/natpan_main_video.mp4" class="videostyle" width="300px" height="auto">
+                    </video>
+                    <section>
+                        <h4 class="h4allvideoscontainer">All Videos</h4>
+                        <button class="btnplaycontainer">
+                            <img src="./images/main-images/play-video-img.png" alt="Play video button decoration">
+                            <p>Play video</p>
+                        </button>
+                    </section>
+
                 </div>
-
+                
                 <!-- VIDEOS CONTENT -->
-                <div class="videos-content">
+                <div class="searchcontainer">
 
                     <!-- SEARCH LABEL -->
-                    <div class="search-label">
-                        <h4>Searching label</h4>
+                    <div class="searchinputcontainer">
+                        <img src="./images/main-images/natipan_search_img.png" alt="Search logo" width="30px" height="auto">
+                        <input type="text" placeholder="Search video" class="inputstylesearch">
                     </div>
 
                     <!-- VIDEOS -->
-                    <div>
-                        <section></section>
-                        <section></section>
-                        <section></section>
+                    <div class="videosearchcontainer">
+                        <div class="videosearchimgcontainer">
+                            <img src="./images/main-images/video-search-img1.png" alt="Video 1" class="imgstyle">
+                            <img src="./images/main-images/video-search-img2.png" alt="Video 2" class="imgstyle">
+                            <img src="./images/main-images/video-search-img3.png" alt="Video 3" class="imgstyle">
+                        </div>
+
+                    </div>
+
+                    <!-- NEXT BUTTON -->
+                    <div class="nextbuttoncontainer">
+                        <div class="btnextstylecontainer">
+                            <button class="btnextstyle">
+                                <p style="font-family: 'Montserrat', sans-serif; font-size: 15px;">Next</p>
+                            </button>
+                        </div>
+                        <div class="nextbtnimg">
+                            <img src="./images/main-images/nextbtn.png" alt="Next logo" style="height: 23px; width: 47px;">
+                        </div>
+                        
                     </div>
                 </div>
 
-                <!-- NEXT BUTTON -->
-                <div class="next-button">
-                    <button>
-                        <p>Next</p>
-                    </button>
-                </div>
-            </section>
+            </div>
 
             <!-- CONTACT SECTION -->
             <section class="contactstyle">
