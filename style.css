@@ -3,8 +3,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
-
+    border: 0px;
 }
 
 nav {
@@ -32,15 +31,11 @@ nav ul li{
 }
 
 nav ul li a{
-
-
     text-decoration: none;
     color: rgb(91, 91, 91);
     font-family: 'Montserrat', sans-serif;
 
 }
-
-
 
 
 .logostyle{
@@ -62,7 +57,6 @@ nav ul li a{
     width: 950px;
     margin: 0 auto;
     display: block;
-
 
 }
 
@@ -577,7 +571,6 @@ p.natipan {
 #natipanteamimg {
 
     display: flex;
-    float: left;
     padding-top: 30px;
     padding-left: 20px;
 }
