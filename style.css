@@ -114,7 +114,6 @@ div.instagrambg {
     font-size: 18px;
 
 }
-
 .navigationinstagram {
 
     display: flex;
@@ -124,32 +123,20 @@ div.instagrambg {
     height: 60px;
     font-family:'Montserrat', sans-serif;
     gap: 20px;
-
-
 }
-
-
 .navigationinstagram ul {
     
     list-style-type: none;   
-
 }
-
-
 
 .navigationinstagram a {
 
     text-decoration: none;
-
-
-
 }
 
 div.navigationinstagram {
 
     height: 200px;
-    
-
 }
 
 .logossupermaket {
@@ -254,7 +241,6 @@ div.navigationinstagram {
 }
 
 /* VIDEOS MAIN CSS */
-
 .videoscontainer {
     display: flex;
     flex-direction: column;
@@ -488,7 +474,6 @@ h1.contact-info {
     justify-content: center;
     align-items: center;
     height: 291px;
-
 }
 
 /* ABOUT US CSS */
@@ -500,7 +485,6 @@ h1.contact-info {
     justify-content: flex-start;
     align-items: center;
     gap: 50px;
-
 }
 
 .historystyle {
@@ -509,14 +493,12 @@ h1.contact-info {
     flex-direction: column;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 div.historystyle {
 
     padding: 30px;
     margin-top: 60px;
-
 }
 
 section.historystyle {
@@ -549,9 +531,6 @@ p.historystyle {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-
-
-
 }
 .natipan {
 
@@ -576,8 +555,6 @@ section.natipan {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
 p.natipan {
@@ -586,7 +563,6 @@ p.natipan {
     width: 500px;
     font-size: 15px;
     text-align: justify;
-
 }
 
 #p {
@@ -596,8 +572,6 @@ p.natipan {
     width: 500px;
     font-size: 15px;
     text-align: justify;
-
-
 }
 
 #natipanteamimg {
@@ -606,7 +580,6 @@ p.natipan {
     float: left;
     padding-top: 30px;
     padding-left: 20px;
-
 }
 
 #h2style {
@@ -626,7 +599,6 @@ p.natipan {
     padding-bottom: 5px;
     font-size: 30px;
     text-align: justify;
-
 }
 
 .divimgwearecontainer {
@@ -636,7 +608,6 @@ p.natipan {
     justify-content: flex-end;
     width: 759px;
     height: 759px;
-
 }
 
 
