@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    border: 0px;
 }
 
 nav {
@@ -11,7 +12,7 @@ nav {
     align-items: center;
     text-align: center;
     height: 60px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
 }
 
 nav ul {
@@ -20,16 +21,36 @@ nav ul {
     vertical-align: bottom;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
-    font-size: 20px;
+
 }
 
-nav ul li a{
-    text-decoration: none;
+nav ul li a {
     color: rgb(91, 91, 91);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+nav ul li a:link {
+    color: rgb(91, 91, 91);
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+
+nav ul li a:visited { 
+    color: #000000;                 
+}
+
+nav ul li a:hover {
+    color: #e52313;
+    text-decoration: underline;
+}
+
+nav ul li a:active {
+    color: #bf0810;
+}
+
 
 .logostyle{
     display: block;
