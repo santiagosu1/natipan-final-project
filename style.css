@@ -12,7 +12,7 @@ nav {
     align-items: center;
     text-align: center;
     height: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -185,7 +185,7 @@ div.navigationinstagram {
     color: rgb(91, 91, 91);
     font-size: 13px;
     margin-top: 10px;
-    font-weight:lighter;
+    font-weight:400;
 }
 
 .instagram-bio p {
@@ -350,7 +350,7 @@ div.navigationinstagram {
 
 .inputstylesearch {
     width: 965px;
-    max-height: 40.5px;
+    height: 40.5px;
     color: #bf0810;
     border: none;
     font-size: 12px;
@@ -448,6 +448,7 @@ h1.contact-info {
     padding-bottom: 20px;
     margin-bottom: 10px;
 }
+
 footer {
     clear: both;
 }

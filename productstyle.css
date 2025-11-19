@@ -12,7 +12,7 @@ nav {
     align-items: center;
     text-align: center;
     height: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 nav ul {
@@ -103,9 +103,9 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    padding-left: 30px;
+    padding-left: 10px;
     width: 1000px;
-    column-gap: 20px;
+    column-gap: 70px;
     row-gap: 160px;
 }
 
