@@ -51,6 +51,7 @@ nav ul li a:active {
     color: #bf0810;
 }
 
+
 .logostyle{
     display: block;
     margin: 0 auto;
@@ -182,13 +183,13 @@ p.natipan {
 
 #wearenatipanimg {
     float: right;
-    width: 756.5px;
+    width: 768px;
     height: 658px;
 }
 
 #wearecommited {
     float: left;
-    width: 756px;
+    width: 768px;
     height: 658px;
 }
 
@@ -208,3 +209,4 @@ footer {
     align-items: center;
     height: 291px;
 }
+
